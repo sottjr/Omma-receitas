@@ -1,0 +1,45 @@
+.titulo-list {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+.container-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 120px;
+    margin-bottom: 500px;
+}
+
+.card-list {
+    height: 450px;
+}
+
+.img-list {
+    width: 345px;
+    height: 345px;
+}
+.list-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.button-list {
+    background-color: #176902;
+    color: #FFFFFF;
+    width: 185px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button-list:hover {
+    transition: .5 all;
+    background-color: #FFFFFF;
+    color: #176902;
+}
